@@ -1,0 +1,20 @@
+{
+  "name": "devops",
+  "short_name": "devops",
+  "icons": [
+    {
+      "src": "/devops/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/devops/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#fff",
+  "theme_color": "#3eaf7c",
+  "display": "standalone",
+  "start_url": "/devops/index.html"
+}
