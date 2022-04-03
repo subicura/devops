@@ -1,6 +1,11 @@
 ---
-description: Git을 이용한 소스 버전 관리
-image: /imgs/share.png
+head:
+  - - meta
+    - property: "og:description"
+      content: Git을 이용한 소스 버전 관리와 TDD
+  - - meta
+    - property: "twitter:description"
+      content: Git을 이용한 소스 버전 관리와 TDD
 ---
 
 # Git

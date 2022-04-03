@@ -1,6 +1,11 @@
 ---
-description: 도메인 연결하고 SSL 인증서 적용하기
-image: /imgs/share.png
+head:
+  - - meta
+    - property: "og:description"
+      content: 도메인 연결하고 SSL 인증서 적용하기
+  - - meta
+    - property: "twitter:description"
+      content: 도메인 연결하고 SSL 인증서 적용하기
 ---
 
 # 도메인 연결하기

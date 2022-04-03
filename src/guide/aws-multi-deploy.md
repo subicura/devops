@@ -1,6 +1,11 @@
 ---
-description: AWS 멀티 서버 배포 하기
-image: /imgs/share.png
+head:
+  - - meta
+    - property: "og:description"
+      content: AWS 다중 서버 배포 하기
+  - - meta
+    - property: "twitter:description"
+      content: AWS 다중 서버 배포 하기
 ---
 
 # AWS 다중 서버 배포

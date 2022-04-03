@@ -1,6 +1,11 @@
 ---
-description: PaaS 배포 하기
-image: /imgs/share.png
+head:
+  - - meta
+    - property: "og:description"
+      content: 배포의 종류와 PaaS 배포 하기
+  - - meta
+    - property: "twitter:description"
+      content: 배포의 종류와 PaaS 배포 하기
 ---
 
 # 배포하기

@@ -1,6 +1,11 @@
 ---
-description: Validate, 테스트 자동체크 도입하기
-image: /imgs/share.png
+head:
+  - - meta
+    - property: "og:description"
+      content: Validate, 테스트 자동 체크 도입하기
+  - - meta
+    - property: "twitter:description"
+      content: Validate, 테스트 자동 체크 도입하기
 ---
 
 # Validate, 테스트 자동화

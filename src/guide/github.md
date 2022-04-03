@@ -1,6 +1,11 @@
 ---
-description: GitHub을 이용한 협업
-image: /imgs/share.png
+head:
+  - - meta
+    - property: "og:description"
+      content: GitHub을 이용한 협업과 Mock을 이용한 테스트
+  - - meta
+    - property: "twitter:description"
+      content: GitHub을 이용한 협업과 Mock을 이용한 테스트
 ---
 
 # GitHub
