@@ -158,8 +158,43 @@ export default {
     [
       "meta",
       {
+        name: "og:type",
+        content: "website",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "og:site_name",
+        content: "쿠버네티스 안내서",
+      },
+    ],
+    [
+      "meta",
+      {
         name: "twitter:image",
         content: "https://subicura.com/devops/imgs/share.png",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "twitter:card",
+        content: "summary_large_image",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "twitter:creator",
+        content: "@subicura",
+      },
+    ],
+    [
+      "meta",
+      {
+        name: "twitter:site",
+        content: "@subicura",
       },
     ],
   ],

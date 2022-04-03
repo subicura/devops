@@ -1,6 +1,11 @@
 ---
-description: DevOps 도입하기
-image: /imgs/share.png
+head:
+  - - meta
+    - property: "og:description"
+      content: DevOps 도입하기
+  - - meta
+    - property: "twitter:description"
+      content: DevOps 도입하기
 ---
 
 # DevOps 도입하기

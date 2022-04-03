@@ -1,17 +1,18 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@subicura/vitepress-theme': ^1.0.3
+  '@subicura/vitepress-theme': ^1.0.4
   imagemin: ^8.0.1
   imagemin-jpegtran: ^7.0.0
   imagemin-pngquant: ^9.0.2
   imagemin-webp: ^7.0.0
   medium-zoom: ^1.0.6
+  rimraf: ^3.0.2
   vitepress: ^0.22.3
   vue: ^3.2.31
 
 dependencies:
-  '@subicura/vitepress-theme': 1.0.3_vue@3.2.31
+  '@subicura/vitepress-theme': 1.0.4_vue@3.2.31
   medium-zoom: 1.0.6
   vitepress: 0.22.3
   vue: 3.2.31
@@ -21,6 +22,7 @@ devDependencies:
   imagemin-jpegtran: 7.0.0
   imagemin-pngquant: 9.0.2
   imagemin-webp: 7.0.0
+  rimraf: 3.0.2
 
 packages:
 
@@ -197,8 +199,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /@subicura/vitepress-theme/1.0.3_vue@3.2.31:
-    resolution: {integrity: sha512-utBgKtDOE6S8ipdIl1dX6oPDoCHB8ixg+ikyM1wPo270QOInMysIBlP0wIJKoyJvrtEwHxXeTcmEp7+yyOHa7g==}
+  /@subicura/vitepress-theme/1.0.4_vue@3.2.31:
+    resolution: {integrity: sha512-c+jdSPlRFJ6dCicNC1ZJ72qDFuHAnwMaf84LXMuHsfHvWyjtyCM5Q7xgJ4L+sO5Rnyb889uItYtIdrNiCaAUFw==}
     dependencies:
       '@docsearch/css': 3.0.0
       '@docsearch/js': 3.0.0
@@ -2085,6 +2087,13 @@ packages:
 
   /rimraf/2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    hasBin: true
+    dependencies:
+      glob: 7.2.0
+    dev: true
+
+  /rimraf/3.0.2:
+    resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
     hasBin: true
     dependencies:
       glob: 7.2.0
