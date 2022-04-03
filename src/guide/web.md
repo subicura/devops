@@ -1,6 +1,11 @@
 ---
-description: Node.js 웹 애플리케이션에 정적분석, 포멧터, 테스트 코드 적용하기
-image: /imgs/share.png
+head:
+  - - meta
+    - property: "og:description"
+      content: Node.js 웹 애플리케이션에 정적분석, 포멧터, 테스트 코드 적용하기
+  - - meta
+    - property: "twitter:description"
+      content: Node.js 웹 애플리케이션에 정적분석, 포멧터, 테스트 코드 적용하기
 ---
 
 # Node.js 웹 애플리케이션
