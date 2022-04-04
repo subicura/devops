@@ -130,7 +130,7 @@ import { VTLink } from '@subicura/vitepress-theme'
   cursor: pointer;
   display: block;
   text-align: center;
-  width: 200px;
+  width: 220px;
   margin: 0 auto;
 }
 
