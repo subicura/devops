@@ -142,7 +142,7 @@ export default {
     [
       "script",
       {
-        src: "https://cdn.usefathom.com/script.js",
+        src: "https://distinct-protected.subicura.dev/script.js",
         "data-site": "AIERDXCX",
         "data-spa": "auto",
         defer: "",
