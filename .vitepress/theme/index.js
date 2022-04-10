@@ -58,11 +58,7 @@ export default Object.assign({}, VPTheme, {
     var GA_ID = "UA-43194822-1";
     // var GA4_ID = "G-98XCF746ZC";
     // Google analytics integration
-    if (
-      process.env.NODE_ENV === "production" &&
-      GA_ID &&
-      typeof window !== "undefined"
-    ) {
+    if (GA_ID && typeof window !== "undefined") {
       (function (i, s, o, g, r, a, m) {
         i["GoogleAnalyticsObject"] = r;
         i[r] =
@@ -86,6 +82,11 @@ export default Object.assign({}, VPTheme, {
 
       ga("create", GA_ID, "auto");
       // ga("set", "anonymizeIp", true);
+
+      watch(router.route, (val) => {
+        ga("set", "page", val.path);
+        ga("send", "pageview");
+      });
 
       // router.afterEach(function (to) {
       //   ga("set", "page", router.app.$withBase(to.fullPath));
