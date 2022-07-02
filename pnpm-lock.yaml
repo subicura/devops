@@ -1,7 +1,7 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
-  '@subicura/vitepress-theme': ^1.0.4
+  '@subicura/vitepress-theme': ^1.0.5
   imagemin: ^8.0.1
   imagemin-jpegtran: ^7.0.0
   imagemin-pngquant: ^9.0.2
@@ -12,7 +12,7 @@ specifiers:
   vue: ^3.2.31
 
 dependencies:
-  '@subicura/vitepress-theme': 1.0.4_vue@3.2.31
+  '@subicura/vitepress-theme': 1.0.5_vue@3.2.31
   medium-zoom: 1.0.6
   vitepress: 0.22.3
   vue: 3.2.31
@@ -136,10 +136,25 @@ packages:
       '@algolia/requester-common': 4.13.0
     dev: false
 
+  /@babel/helper-validator-identifier/7.18.6:
+    resolution: {integrity: sha512-MmetCkz9ej86nJQV+sFCxoGGrUbU3q02kgLciwkrt9QqEB7cP39oKEY0PakknEO0Gu20SskMRi+AYZ3b1TpN9g==}
+    engines: {node: '>=6.9.0'}
+    dev: false
+
   /@babel/parser/7.17.8:
     resolution: {integrity: sha512-BoHhDJrJXqcg+ZL16Xv39H9n+AqJ4pcDrQBGZN+wHxIysrLZ3/ECwCBUch/1zUNhnsXULcONU3Ei5Hmkfk6kiQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
+    dependencies:
+      '@babel/types': 7.18.7
+    dev: false
+
+  /@babel/types/7.18.7:
+    resolution: {integrity: sha512-QG3yxTcTIBoAcQmkCs+wAPYZhu7Dk9rXKacINfNbdJDNERTbLQbHGyVG8q/YGMPeCJRIhSY0+fTc5+xuh6WPSQ==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-validator-identifier': 7.18.6
+      to-fast-properties: 2.0.0
     dev: false
 
   /@docsearch/css/3.0.0:
@@ -199,8 +214,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /@subicura/vitepress-theme/1.0.4_vue@3.2.31:
-    resolution: {integrity: sha512-c+jdSPlRFJ6dCicNC1ZJ72qDFuHAnwMaf84LXMuHsfHvWyjtyCM5Q7xgJ4L+sO5Rnyb889uItYtIdrNiCaAUFw==}
+  /@subicura/vitepress-theme/1.0.5_vue@3.2.31:
+    resolution: {integrity: sha512-AwNiKOw/N+0sy1+yeWxaMkh39xtP3y2tkeLgz3Huqq7wHYs6I1JxnOGIgUlFHYzIctMn68IBLdgCPseJjyeDhQ==}
     dependencies:
       '@docsearch/css': 3.0.0
       '@docsearch/js': 3.0.0
@@ -219,6 +234,22 @@ packages:
 
   /@tokenizer/token/0.3.0:
     resolution: {integrity: sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==}
+    dev: true
+
+  /@types/keyv/3.1.4:
+    resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
+    dependencies:
+      '@types/node': 18.0.0
+    dev: true
+
+  /@types/node/18.0.0:
+    resolution: {integrity: sha512-cHlGmko4gWLVI27cGJntjs/Sj8th9aYwplmZFwmmgYQQvL5NUsgVJG7OddLvNfLqYS31KFN0s3qlaD9qCaxACA==}
+    dev: true
+
+  /@types/responselike/1.0.0:
+    resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
+    dependencies:
+      '@types/node': 18.0.0
     dev: true
 
   /@vitejs/plugin-vue/2.3.1_vite@2.9.1+vue@3.2.31:
@@ -1258,6 +1289,8 @@ packages:
     resolution: {integrity: sha512-Y5WMo7xKKq1muPsxD+KmrR8DH5auG7fBdDVueZwETwV6VytKyU9OX/ddpq2/1hp1vIPvVb4T81dKQz3BivkNLw==}
     engines: {node: '>=4'}
     dependencies:
+      '@types/keyv': 3.1.4
+      '@types/responselike': 1.0.0
       decompress-response: 3.3.0
       duplexer3: 0.1.4
       get-stream: 3.0.0
@@ -1279,6 +1312,8 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       '@sindresorhus/is': 0.7.0
+      '@types/keyv': 3.1.4
+      '@types/responselike': 1.0.0
       cacheable-request: 2.1.4
       decompress-response: 3.3.0
       duplexer3: 0.1.4
@@ -2374,6 +2409,11 @@ packages:
   /to-buffer/1.1.1:
     resolution: {integrity: sha512-lx9B5iv7msuFYE3dytT+KE5tap+rNYw+K4jVkb9R/asAb+pbBSM17jtunHplhBe6RRJdZx3Pn2Jph24O32mOVg==}
     dev: true
+
+  /to-fast-properties/2.0.0:
+    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
+    engines: {node: '>=4'}
+    dev: false
 
   /to-regex-range/5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
