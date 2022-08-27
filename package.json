@@ -11,9 +11,9 @@
     "serve": "vitepress serve"
   },
   "dependencies": {
-    "@subicura/vitepress-theme": "^1.0.5",
+    "@subicura/vitepress-theme": "^1.0.6",
     "medium-zoom": "^1.0.6",
-    "vitepress": "^0.22.3",
+    "vitepress": "v1.0.0-alpha.4",
     "vue": "^3.2.31"
   },
   "devDependencies": {
