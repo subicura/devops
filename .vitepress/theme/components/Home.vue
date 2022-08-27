@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { useData } from 'vitepress'
-import { withBase } from 'vitepress';
-import NewsLetter from './NewsLetter.vue'
+import { useData } from "vitepress";
+import { withBase } from "vitepress";
+import NewsLetter from "./NewsLetter.vue";
 
-const { frontmatter, site } = useData()
+const { frontmatter, site } = useData();
 </script>
 
 <template>
@@ -35,9 +35,7 @@ const { frontmatter, site } = useData()
   <div class="vt-doc">
     <div class="warning custom-block">
       <p class="custom-block-title">💡 주의</p>
-      <p>
-        본 가이드는 현재 미완성입니다. 예고없이 내용이 변경될 수 있습니다.
-      </p>
+      <p>본 가이드는 현재 미완성입니다. 예고없이 내용이 변경될 수 있습니다.</p>
     </div>
   </div>
 
@@ -45,50 +43,66 @@ const { frontmatter, site } = useData()
     <div class="vt-box">
       <h2>🧑‍💻 무엇을 배우나요?</h2>
       <p>
-        개발과 테스트 코드, 클라우드 배포, CI/CD, 컨테이너부터 쿠버네티스까지 다양한 DevOps 도구를 살펴봅니다.
+        개발과 테스트 코드, 클라우드 배포, CI/CD, 컨테이너부터 쿠버네티스까지
+        다양한 DevOps 도구를 살펴봅니다.
       </p>
     </div>
     <div class="vt-box">
       <h2>💻 어떻게 배우나요?</h2>
       <p>
-        Node.js 웹 애플리케이션을 만들고 AWS EKS에 배포하는 전체 과정을 핵심만 골라 아주 빠르고 가볍게 훑어봅니다.
+        Node.js 웹 애플리케이션을 만들고 AWS EKS에 배포하는 전체 과정을 핵심만
+        골라 아주 빠르고 가볍게 훑어봅니다.
       </p>
     </div>
     <div class="vt-box">
       <h2>⚠️ 더 알아보기</h2>
       <p>
-        최적의 DevOps 도구는 개발 언어와 프레임워크, 환경에 따라 다릅니다. 더 나은 도구를 찾고 적용해보세요.
+        최적의 DevOps 도구는 개발 언어와 프레임워크, 환경에 따라 다릅니다. 더
+        나은 도구를 찾고 적용해보세요.
       </p>
     </div>
   </section>
 
   <div class="features features-4" style="align-items: center">
     <div class="feature" style="text-align: center">
-      <a href="https://subicura.com/k8s/?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops">
+      <a
+        href="https://subicura.com/k8s/?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops"
+        target="_blank"
+      >
         <custom-image src="/imgs/k8s_hero.png" />
         <p style="margin-top: 0">쿠버네티스 안내서</p>
       </a>
     </div>
     <div class="feature" style="text-align: center">
-      <a href="https://subicura.com/2021/06/27/study-guide.html?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops">
+      <a
+        href="https://subicura.com/2021/06/27/study-guide.html?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops"
+        target="_blank"
+      >
         <custom-image src="/imgs/web_hero.png" />
         <p style="margin-top: 0">웹 개발자 학습 안내서</p>
       </a>
     </div>
     <div class="feature" style="text-align: center">
-      <a href="https://subicura.com/git/?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops">
+      <a
+        href="https://subicura.com/git/?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops"
+        target="_blank"
+      >
+        >
         <custom-image src="/imgs/git_hero.png" />
         <p style="margin-top: 0">Git/GitHub 안내서</p>
       </a>
     </div>
     <div class="feature" style="text-align: center">
-      <a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops">
+      <a
+        href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops"
+        target="_blank"
+      >
+        >
         <custom-image src="/imgs/docker_hero.png" />
         <p style="margin-top: 0">도커 안내서</p>
       </a>
     </div>
   </div>
-
 
   <NewsLetter />
 </template>
@@ -247,7 +261,7 @@ html:not(.dark) .accent,
 
 .features {
   border-top: 1px solid #eaecef;
-  padding: 2.0rem 0 2.5rem;
+  padding: 2rem 0 2.5rem;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
