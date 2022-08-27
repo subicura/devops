@@ -87,7 +87,6 @@ const { frontmatter, site } = useData();
         href="https://subicura.com/git/?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops"
         target="_blank"
       >
-        >
         <custom-image src="/imgs/git_hero.png" />
         <p style="margin-top: 0">Git/GitHub 안내서</p>
       </a>
@@ -97,7 +96,6 @@ const { frontmatter, site } = useData();
         href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html?utm_source=subicura.com&utm_medium=referral&utm_campaign=devops"
         target="_blank"
       >
-        >
         <custom-image src="/imgs/docker_hero.png" />
         <p style="margin-top: 0">도커 안내서</p>
       </a>
