@@ -104,25 +104,25 @@ Validate와 테스트 스크립트가 자동으로 실행되는 것을 확인할
   <Chat-KakaoMsg avatar="senior" user="촋 CTO" msg="아무래도 코드가 크면 체크하는 시간도 오래 걸리고 사용자 경험이 좋지는 않죠 ㅠㅠ" isMe="false" />
   <Chat-KakaoMsg avatar="senior" user="촋 CTO" msg="그럼 커밋할 파일들만 체크하는 건 어떨까요?" isMe="false" />
   <Chat-KakaoMsg msg="???? 😳" isMe="true" />
-  <Chat-KakaoMsg avatar="senior" user="촋 CTO" msg="link-staged를 도입해서 개선해보죠" isMe="false" />
+  <Chat-KakaoMsg avatar="senior" user="촋 CTO" msg="lint-staged를 도입해서 개선해보죠" isMe="false" />
 </Chat-KakaoRoom>
 
 ::: tip Husky 더보기
 📔 [Husky 공식문서](https://typicode.github.io/husky)
 :::
 
-## link-staged
+## lint-staged
 
-link-staged는 Git의 staged 영역에 있는 파일만 필터링해서 작업할 수 있는 도구입니다. 전체 파일 중에 commit 할 파일만 체크하기 때문에 속도를 대폭 개선할 수 있습니다.
+lint-staged는 Git의 staged 영역에 있는 파일만 필터링해서 작업할 수 있는 도구입니다. 전체 파일 중에 commit 할 파일만 체크하기 때문에 속도를 대폭 개선할 수 있습니다.
 
-link-staged를 설치합니다.
+lint-staged를 설치합니다.
 
 ```sh
 # lint-staged 설치
 npm install lint-staged --save-dev
 ```
 
-`package.json`에 link-staged 스크립트를 추가합니다.
+`package.json`에 lint-staged 스크립트를 추가합니다.
 
 ```json{9}
 "scripts": {
